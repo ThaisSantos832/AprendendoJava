@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: darkorchid;
+}
+.item{
+    width: 400px;
+}
+@media screen and (max-width:400px){
+    .item{
+        width: 100%;
+        font-size: x-large;
+    }
+    .container{
+        background-color: red;
+    }
+}
+@media screen and (max-width: 800px) and (min-width:401px){
+    .container{
+        background-color: blue;
+    }
+    
+}
